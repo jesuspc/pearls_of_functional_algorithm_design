@@ -2,7 +2,7 @@ module C01SmallestFreeNumber.Trivial (minfreeT) where
 
 import           Data.Array
 
--- This implementation does require elements in xs to be distinct
+-- This implementation does not require elements in xs to be distinct
 minfreeT :: [Int] -> Int
 minfreeT xs = head ([0..] \\ xs)
 
