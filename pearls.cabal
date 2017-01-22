@@ -19,7 +19,9 @@ library
                        C01SmallestFreeNumber.Trivial,
                        C01SmallestFreeNumber.ArrayBased,
                        C01SmallestFreeNumber.StateMonad,
-                       C01SmallestFreeNumber.DivideConquer
+                       C01SmallestFreeNumber.DivideConquer,
+                       C02SurpassingProblem.Trivial,
+                       C02SurpassingProblem.DivideConquer
   build-depends:       base >= 4.7 && < 5,
                        array
   default-language:    Haskell2010
